@@ -1,0 +1,30 @@
+<changeSet author="sean.scott" id="1.0-dataload">
+  <loadData file="db/changelog/db.changelog-1.0-data-raw-race-result.csv"
+            tableName="raw_race_result">
+        
+        <column name="eventId" type="varchar(256)"/>
+        <column name="groupName" type="varchar(256)"/>
+        <column name="id" type="varchar(256)"/>
+        <column name="place" type="varchar(256)"/>
+        <column name="number" type="varchar(256)"/>
+        <column name="name" type="varchar(256)"/>
+        <column name="team" type="varchar(256)"/>
+        <column name="grade" type="varchar(256)"/>
+        <column name="points" type="varchar(256)"/>
+        <column name="wave" type="varchar(256)"/>
+        <column name="lap1Str" type="varchar(256)"/>
+        <column name="lap1Millis" type="integer"/>
+        <column name="lap2Str" type="varchar(256)"/>
+        <column name="lap2Millis" type="integer"/>
+        <column name="lap3Str" type="varchar(256)"/>
+        <column name="lap3Millis" type="integer"/>
+        <column name="lap4Str" type="varchar(256)"/>
+        <column name="lap4Millis" type="integer"/>
+        <column name="penaltyStr" type="varchar(256)"/>
+        <column name="penaltyMillis" type="integer"/>
+        <column name="timeStr" type="varchar(256)"/>
+        <column name="timeMillis" type="integer"/>
+        <column name="fastestStr" type="varchar(256)"/>
+        <column name="fastestMillis" type="integer"/>
+    </loadData>
+</changeSet>
